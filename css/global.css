@@ -1,0 +1,51 @@
+/* eesinfo website global css setting. Copyright (C) 2004 */
+* {
+	font-family: Tahoma, Arial, Verdana, "MS Sans Serif";
+	font-size: 9pt;
+	line-height: 1.5;
+}
+td {
+	font-family: Tahoma, Arial, Verdana, "MS Sans Serif";
+	font-size: 9pt;
+	line-height: 1.5;
+}
+body {
+	margin: 0;
+}
+a, a:link, a:focus, a:hover, a:active, a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+.footer {
+	padding: 10px;
+}
+.blackHeader {
+	color: #333333;
+}
+.greyText {
+	color: #666666;
+}
+.darkGreyText {
+	color: #333333;
+}
+a.blackLink, a.blackLink:link, a.blackLink:hover, a.blackLink:active, a.blackLink:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+img.imgClear {
+	behavior: url(behavior/imgclear.htc);
+}
+img.imgLoad {
+	behavior: url(behavior/imgload.htc);
+}
+a.greyLink, a.greyLink:active, a.greyLink:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a.greyLink:hover {
+	text-decoration: underline;
+}
+a.greyLinkUL, a.greyLinkUL:hover, a.greyLinkUL:active, a.greyLinkUL:visited {
+	color: #333333;
+	text-decoration: underline;
+}

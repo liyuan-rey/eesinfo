@@ -1,0 +1,67 @@
+/* eesinfo website global css setting. Copyright (C) 2004 */
+.logo {
+	background-color: #000000;
+}
+.title {
+	background-color: #999966;
+}
+.column {
+	background-color: #999966;
+}
+a.columnLink, a.columnLink:link, a.columnLink:focus, a.columnLink:active, a.columnLink:visited {
+	background-color: #999966;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	padding: 0px 5px 0px 5px;
+	display: block;
+}
+a.columnLink:hover {
+	background-color: #333300;
+	color: #FFFFFF;
+}
+a.columnLinkActive, a.columnLinkActive:link, a.columnLinkActive:focus, a.columnLinkActive:hover, a.columnLinkActive:active, a.columnLinkActive:visited {
+	background-color: #333300;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	padding: 0px 5px 0px 5px;
+	display: block;
+}
+.columnIntro {
+	background-color: #999966;
+	color: #FFFFFF;
+	font-family: "ËÎÌו", Arial Black;
+	font-size: 24px;
+	font-weight: bold;
+}
+a.columnNav, a.columnNav:link, a.columnNav:focus, a.columnNav:hover, a.columnNav:active, a.columnNav:visited {
+	color: #666633;
+	text-decoration: underline;
+}
+a.headNav, a.headNav:link, a.headNav:active, a.headNav:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.headNav:hover {
+	color: #CCCC99;
+}
+.subNav {
+	color: #FFFFFF;
+}
+a.subNav, a.subNav:active, a.subNav:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.subNav:hover {
+	color: #666633;
+}
+.contentTitle0 {
+	color: #999966;
+	font-size: 14px;
+	font-weight: bold;
+}
+hr.sepLine {
+	height: 1px;
+	border-top: 1px dotted #999966;
+}
