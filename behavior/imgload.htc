@@ -1,0 +1,63 @@
+<!-- ---------------------------------------------------------------------
+//
+//  Copyright 2004 EESINFO Information Technology Co., Ltd.  All Rights Reserved.
+//
+//-------------------------------------------------------------------- -->
+
+
+<ATTACH   EVENT="ondocumentready" HANDLER="doInit" />
+
+
+<SCRIPT LANGUAGE="jscript">
+
+
+//-----------------------------------------------------------------------------
+
+var sAttrName = "rndImgs";
+var sSeperator = ";";
+var sFilter = "progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=0.25,wipestyle=0,motion=forward)";
+var timePeriod = 5000;
+
+var curImgIndex = 0;
+var rndImages = new Array();
+var iTimerID;
+
+//-----------------------------------------------------------------------------
+
+function doInit()
+{
+	var sRndImgs = getAttribute(sAttrName);
+	if (sRndImgs == null)
+		return;
+
+	rndImages = sRndImgs.split(sSeperator);
+	if (rndImages == null || rndImages.length < 2)
+		return;
+
+	style.filter = sFilter;
+
+	iTimerID = setInterval(loadImage, timePeriod);
+
+    document.onblur = doClean;
+}
+
+function loadImage()
+{
+	if (rndImages.length < 2)
+		return;
+		
+	curImgIndex++;
+	if (curImgIndex >= rndImages.length)
+		curImgIndex = 0;
+		
+	filters[0].apply();
+	src = parentElement.all(rndImages[curImgIndex], 0).src;
+	filters[0].play();
+}
+
+function doClean()
+{
+	clearInterval(iTimerID);
+}
+
+</SCRIPT>

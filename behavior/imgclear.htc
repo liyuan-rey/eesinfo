@@ -1,0 +1,39 @@
+<!-- ---------------------------------------------------------------------
+//
+//  Copyright 2004 EESINFO Information Technology Co., Ltd.  All Rights Reserved.
+//
+//-------------------------------------------------------------------- -->
+
+
+<ATTACH   EVENT="ondocumentready" HANDLER="doInit" />
+
+
+<SCRIPT LANGUAGE="jscript">
+
+
+//-----------------------------------------------------------------------------
+
+var sFilter = "progid:DXImageTransform.Microsoft.BasicImage(Rotation=0,Mirror=0,Invert=0,XRay=0,Grayscale=0,Opacity=0.75)";
+
+//-----------------------------------------------------------------------------
+
+function doInit()
+{
+	style.filter = sFilter;
+	
+    attachEvent("onmouseover", doClarity);
+    attachEvent("onmouseout", doTrans);    
+}
+
+function doTrans()
+{
+	filters.item(0).Opacity = 0.75;
+}
+
+function doClarity()
+{
+	filters.item(0).Opacity = 1.00;
+}
+
+
+</SCRIPT>
