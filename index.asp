@@ -8,7 +8,7 @@
 
 <body>
 <%
-	Response.Redirect("plm")
+	Response.Redirect("plm/")
 %>
 </body>
 </html>

@@ -5,8 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>EESIN PLM Solution</title>
-<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
-<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceEndEditable -->
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceEndEditable -->
 <link href="../css/global.css" rel="stylesheet" type="text/css">
 <link href="@@@(css_href)@@@" rel="stylesheet" type="text/css">
 <!-- InstanceParam name="css_href" type="text" value="../css/black_green.css" passthrough="true" --><!-- InstanceParam name="subnav_background" type="text" value="../images/subnav_bg.gif" --><!-- InstanceParam name="copyright_owner" type="text" value="EESIN" -->
@@ -26,7 +25,7 @@
           <form id=google method=GET action="http://www.google.com/search">
             <table width="100%" height="15"  border="0" cellpadding="2" cellspacing="0" class="column">
               <tr align="center">
-                <td nowrap><a href="../plm/index.htm" class="columnLinkActive">PLM 解决方案</a></td>
+                <td nowrap><a href="../plm/index.htm" class="columnLink">PLM 解决方案</a></td>
                 <td nowrap><a href="../training/index.htm" class="columnLink">汽车设计培训</a></td>
                 <td nowrap><a href="../analyse/index.htm" class="columnLink">工程分析服务</a></td>
                 <td nowrap><a href="../download/index.htm" class="columnLink">下载中心</a></td>
@@ -45,11 +44,12 @@
           <!-- TemplateBeginEditable name="column_ignor" --><!-- TemplateEndEditable --><!-- InstanceEndEditable --></td>
       </tr>
       <tr>
-        <td width="450" class="columnIntro"><!-- InstanceBeginEditable name="intro" -->PLM intro goes here...<!-- InstanceEndEditable --></td>
+        <td width="450" class="columnIntro"><!-- InstanceBeginEditable name="intro" -->intro goes here...          <br>
+        <!-- InstanceEndEditable --></td>
         <td width="120" class="columnIntro">&nbsp;</td>
       </tr>
       <tr>
-        <td><!-- InstanceBeginEditable name="nav" --><a href="../plm/index.htm" class="columnNav">首页</a><img src="../images/arrow.gif" width="12" height="10">PLM 解决方案<!-- TemplateBeginEditable name="nav_ignor" --><!-- TemplateEndEditable --><!-- InstanceEndEditable --></td>
+        <td><!-- InstanceBeginEditable name="nav" --><a href="../index.asp" class="columnNav">首页</a><img src="../images/arrow.gif" width="12" height="10">合作伙伴<!-- InstanceEndEditable --></td>
         <td><a href="../partner/index.htm" class="headNav">合作伙伴</a><img src="../images/div_grey.gif" width="18" height="7" align="absmiddle"><a href="../contactus.htm" class="headNav">联系我们</a></td>
       </tr>
       <tr>
@@ -66,26 +66,20 @@
         </tr>
         <tr>
           <td width="10"><img src="../images/spacer.gif" width="10" height="1"></td>
-          <td><!-- InstanceBeginEditable name="sub_nav" --><img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../plm/plmsintro.htm" class="subNav">产品生命周期管理</a><br>
-              <div><img src="../images/spacer.gif" width="20" height="10"><a href="../plm/plmsfunc.htm" class="subNav">解决方案功能</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10"><a href="../plm/plmscrtech.htm" class="subNav">关键技术</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10"><a href="../plm/plmimp.htm" class="subNav">解决方案实施</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10"><a href="../plm/plmadv.htm" class="subNav">特征及优势</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10"><a href="../plm/plmsysreq.htm" class="subNav">系统要求</a></div>
-              <br>
-              <img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../plm/plmcust.htm" class="subNav">行业及成功案例</a>
-            <div><img src="../images/spacer.gif" width="20" height="10">汽车及零部件<br>
-                  <img src="../images/spacer.gif" width="38" height="10"><a href="../plm/plmcustd1.htm" class="subNav">SUNGWOO<br>
-                  </a> <img src="../images/spacer.gif" width="38" height="10"><a href="../plm/plmcustd2.htm" class="subNav">HS R&amp;A</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10">电子行业<br>
-                  <img src="../images/spacer.gif" width="38" height="10"><a href="../plm/plmcustd3.htm" class="subNav">RENESAS</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10">重型工业<br>
-                  <img src="../images/spacer.gif" width="38" height="10"><a href="../plm/plmcustd4.htm" class="subNav">DOOSAN</a><br>
-                  <img src="../images/spacer.gif" width="20" height="10">航空<br>
-                  <img src="../images/spacer.gif" width="38" height="10"><a href="../plm/plmcustd5.htm" class="subNav">SOOSUNG</a><br>
-                  <br>
-              <!-- TemplateBeginEditable name="sub_nav_ignor" --><!-- TemplateEndEditable --></div>
-          <!-- InstanceEndEditable --></td>
+          <td><!-- InstanceBeginEditable name="sub_nav" --><img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../download/index.htm" class="subNav">下载中心</a><br>
+          <div><img src="../images/spacer.gif" width="20" height="10"><a href="../download/plm.htm" class="subNav">PLM 解决方案</a><br>
+                  <img src="../images/spacer.gif" width="20" height="10"><a href="../download/training.htm" class="subNav">汽车设计方法学培训</a><br>
+            <img src="../images/spacer.gif" width="20" height="10"><a href="../download/analyse.htm" class="subNav">工程分析服务</a></div>
+          <br>
+		  <img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../partner/index.htm" class="subNav">合作伙伴</a><br>
+          <div><img src="../images/spacer.gif" width="20" height="10"><a href="../partner/ssc.htm" class="subNav">上海超级计算机中心</a><br>
+                  <img src="../images/spacer.gif" width="20" height="10"><a href="../partner/cies.htm" class="subNav">CIES</a><br>
+            <img src="../images/spacer.gif" width="20" height="10"><a href="http://www.mingwei.cn" target="_blank" class="subNav">明威科技</a></div>
+          <br>
+		  <img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../aboutus.htm" class="subNav">关于我们</a><br>
+		  <img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../contactus.htm" class="subNav">联系我们</a><br>
+		  <img src="../images/v_green_arrow.gif" width="9" height="4" align="absmiddle" style="border: none"><a href="../copyright.htm" class="subNav">使用条款</a><br>
+          <!-- TemplateBeginEditable name="sub_nav_ignor" --><!-- TemplateEndEditable --><!-- InstanceEndEditable --></td>
           <td width="6"><img src="../images/spacer.gif" width="6" height="1"></td>
         </tr>
       </table>
@@ -94,23 +88,16 @@
       <br>
     </td>
     <td width="594" height="100%" valign="top" bgcolor="#FFFFFF"><!-- InstanceBeginEditable name="content" -->
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="24" height="20" valign="top"><img src="../images/spacer.gif" width="24" height="20"></td>
-          <td width="100%" valign="top"><img src="../images/spacer.gif" width="1" height="20"></td>
-          <td width="36"><img src="../images/spacer.gif" width="36" height="20"></td>
-          <td width="114"><img src="../images/spacer.gif" width="114" height="20"></td>
-        </tr>
-        <tr>
-          <td valign="top">&nbsp;</td>
-          <td width="100%"><!-- TemplateBeginEditable name="detail" -->detail goes here... <!-- TemplateEndEditable --></td>
-          <td valign="top" background="../images/dot.gif" style="background-position: center; background-repeat: repeat-y">&nbsp;</td>
-          <td valign="top"><br>
-            <br>
-          <br></td>
-			<br>
-        </tr>
-      </table>
+        <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="24" height="10"><img src="../images/spacer.gif" width="24" height="20"></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><!-- TemplateBeginEditable name="detail" -->detail goes here...<!-- TemplateEndEditable --></td>
+          </tr>
+        </table>
     <!-- InstanceEndEditable --><br><br></td>
     <td bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
