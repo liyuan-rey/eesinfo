@@ -1,7 +1,4 @@
 /* eesinfo website global css setting. Copyright (C) 2004 */
-.logo {
-	background-color: #000000;
-}
 .title {
 	background-color: #333399;
 }
@@ -57,6 +54,13 @@ a.subNav:hover {
 	color: #333399;
 	font-size: 14px;
 	font-weight: bold;
+}
+.contentTitle1 {
+	background-color: #333399;
+	color: #CCCCCC;
+	line-height: 20px;
+	padding: 0px 5px 0px 5px;
+	display: block;
 }
 hr.sepLine {
 	height: 1px;
